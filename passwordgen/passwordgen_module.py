@@ -1,18 +1,18 @@
 import random
 
 def passwordgen():
-	return
-
-
-def main():
 	chars = ("!@$%^&*()#?abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
 	password = []
 	while len(password) != 8:
-		index = random.randint(1, len(chars)+1)
+		index = random.randint(1, len(chars)-1)
 		password.append(chars[index])
 	password = "".join(password)
-	print(password)
+	return password
+
+
+def main():
 	passwordgen()
+	#print(password)
 	return
 
 
