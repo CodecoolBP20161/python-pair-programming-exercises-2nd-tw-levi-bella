@@ -13,7 +13,8 @@ def main():
 	name = input("What's Your name? ")
 	age = int(input("How old are you?"))
 	years(age)
-	print("Hello ",name,"You'll be 100 yrs old in the year of: ", result)
+	this_many = int(input("How many times do you want it to print?"))
+	print(("Hello ",name,"You'll be 100 yrs old in the year of: ", result, "\n")*this_many)
 	return age
 
 

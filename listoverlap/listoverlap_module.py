@@ -1,5 +1,5 @@
-a = [1, 1, 2, 3, 5, 8, 13]
-b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+a = [x*2 for x in range(17)]
+b = [x for x in range(0, 30, 3)]
 
 
 def listoverlap(a, b):
