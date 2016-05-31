@@ -4,7 +4,6 @@ def palindrome(pal):
 	if pal == pal[::-1]:
 		return True
 	else:
-		print("false")
 		return False
 
 
