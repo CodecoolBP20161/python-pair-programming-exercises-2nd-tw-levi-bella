@@ -1,5 +1,5 @@
 
-0Exercise:
+Exercise:
 
 Write a program, that prints the numbers from 1 to 100.
 Write a function called "fizzbuzz", which modifies the list of numbers as the following:
