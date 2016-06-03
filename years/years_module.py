@@ -11,11 +11,11 @@ def years(age):
 def main():
     age = 0
     name = input("What's Your name? ")
-    age = int(input("How old are you?"))
+    age = int(input("How old are you? "))
     years(age)
     this_many = int(input("How many times do you want it to print? "))
     for i in range(this_many):
-        print("Hello ", name, "You'll be 100 yrs old in the year of: ", result, "\n")
+        print("Hello", name, "! You'll be 100 yrs old in the year of: ", result, "\n")
     return age
 
 
