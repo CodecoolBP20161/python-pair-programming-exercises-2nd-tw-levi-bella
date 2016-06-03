@@ -3,8 +3,7 @@ b = [x for x in range(0, 30, 3)]
 
 
 def listoverlap(a, b):
-    c = sorted(list((set(a) & (set(b)))))
-    return c
+    return sorted(list((set(a) & (set(b)))))
 
 
 def main():
